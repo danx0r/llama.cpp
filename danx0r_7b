@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./main -m models/ggml-vicuna-7b-1.1-q5_1.bin --repeat_penalty 1.0 --color -i -r "User:" -f prompts/danx0r.txt
