@@ -55,6 +55,7 @@ void sigint_handler(int signo) {
 #endif
 
 int main(int argc, char ** argv) {
+    printf("DANX0R in da housze");
     gpt_params params;
 
     if (gpt_params_parse(argc, argv, params) == false) {
